@@ -1,15 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/552fd6d8e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      header {
+        font-family: "Poppins", sans-serif;
+        height: 60px;
+        background-color: #252525;
+        color: #fff;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 6px;
+        padding-right: 6px;
+      }
+      header .option {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+        margin-left: 10px;
+      }
+      header .location {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        /* position: relative; */
+        justify-content: center;
+        gap: 10px;
+        padding-right: 20px;
+        border-right: 1px solid #555;
+      }
+      header .contact {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        padding-right: 20px;
+        border-right: 1px solid #555;
+      }
+      header .login {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        padding-right: 20px;
+        border-right: 1px solid #555;
+      }
+      header .like {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        padding-right: 20px;
+        border-right: 1px solid #555;
+      }
+      header .bag {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        padding-right: 20px;
+        border-right: 1px solid #555;
+      }
+      header .image {
+        display: block;
+        height: 49px;
+        width: 45px;
+        background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/sprite_logo_header_2.png);
+        background-position: -4.8% 29.6%;
+        background-size: 259%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        cursor: auto;
+      }
+      header .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      .details i {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
     <div>
-        <header>
-            <h1>Reebok</h1>
-        </header>
+      <header>
+        <div class="option">
+          more brands <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="details">
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i> stores
+          </div>
+          <div class="contact">
+            <i class="fa-solid fa-circle-info"></i> contact us
+          </div>
+          <div class="login"><i class="fa-solid fa-user"></i> login</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <div class="bag"><i class="fa-solid fa-bag-shopping"></i></div>
+          <div class="image"></div>
+        </div>
+      </header>
     </div>
-</body>
+  </body>
 </html>
