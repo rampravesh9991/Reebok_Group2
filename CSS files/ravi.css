@@ -1,0 +1,61 @@
+.footer_cont1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(12, 35, 64);
+  }
+  .li04 {
+    color: white;
+    list-style-type: none;
+    font-size: 17px;
+    font-weight:400;
+  }
+  h4 {
+    color: white;
+    font-weight:bolder
+  }
+  span {
+    color: white;
+  }
+  .cont1{
+      display: flex;
+      padding: 50px;
+      padding-left: 80px;
+  }
+  .about_sec{
+      margin-left: 200px;
+  }
+  .info_join{
+      margin-left:600px;
+  }
+  a{
+      color: white;
+      padding-left: 80px;
+  }
+  input{
+      width: 300px;
+      height:40px;
+      background-color: transparent;
+      border:none;
+      font-size: 20px;
+  }
+  #last_info{
+      margin-left:800px;
+  }
+  .span1{
+      padding:20px;
+  }
+  .logo_1{
+      display: flex;
+      margin-top: 20px;
+  }
+  .logo{
+      padding-top: 20px;
+      padding-left: 40px;
+      font-size: 20px;
+      
+  }
+  #arrow{
+      padding-left: 150px;
+      font-size: 30px;
+      color: rgba(255, 255, 255, 0.255);
+  }

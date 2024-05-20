@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap");
+      #cont87 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #box99 {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        max-width: 320px;
+        justify-content: center;
+        display: inline-block;
+        text-align: left;
+      }
+
+      h10 {
+        color: hsl(213, 12%, 55%);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: small;
+      }
+      h11 {
+        color: hsl(214, 12%, 40%);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: small;
+      }
+      p {
+        font-family: "Montserrat", sans-serif;
+      }
